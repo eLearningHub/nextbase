@@ -1,4 +1,19 @@
-# T3 stack + Supabase + App directory
+# nextbase
+
+## Getting started
+
+- Define the following variables:
+
+  ```{bash}
+  export PROJECT_ID=supabase_project_name
+  export PROJECT_REF=supabase_project_reference_key
+  ```
+
+- `supabase link --project-ref ${PROJECT_REF}`
+- `pnpm prepare:remote`
+- `pnpm dev`
+
+## T3 stack + Supabase + App directory
 
 This project is Edge ready (Vercel Edge runtime)
 
